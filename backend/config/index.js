@@ -1,7 +1,6 @@
 export default {
   Server: {
-    port: 9090,
-    webUrl: "http://localhost:9090",
+    webUrl: "https://test1-1-95zm.onrender.com",
   },
   Database: {
     url: "mongodb+srv://badersekrafi:Rabbiallah12@cluster0.0mvuko8.mongodb.net/",
