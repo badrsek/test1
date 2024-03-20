@@ -1,5 +1,6 @@
 export default {
   Server: {
+    port: 9090,
     webUrl: "https://test1-1-95zm.onrender.com",
   },
   Database: {
