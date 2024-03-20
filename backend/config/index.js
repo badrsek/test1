@@ -1,7 +1,9 @@
+require("dotenv").config();
+
 export default {
   Server: {
-    port: 5000,
-    webUrl: "https://test1-1-95zm.onrender.com",
+    port: process.env.PORT || 9090,
+    webUrl: "http://localhost:9090",
   },
   Database: {
     url: "mongodb+srv://badersekrafi:Rabbiallah12@cluster0.0mvuko8.mongodb.net/",
