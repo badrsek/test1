@@ -1,6 +1,8 @@
+require("dotenv").config();
+
 export default {
   Server: {
-    port: 9090,
+    port: process.env.PORT || 9090,
     webUrl: "http://localhost:9090",
   },
   Database: {
