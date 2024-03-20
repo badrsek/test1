@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.59f201a2.css",
+    "main.js": "/static/js/main.ed5e8a72.js",
+    "static/js/787.482688bf.chunk.js": "/static/js/787.482688bf.chunk.js",
+    "static/media/beautyCollection.svg": "/static/media/beautyCollection.6e13e4cd08fc115d4f592856771471ec.svg",
+    "static/media/coupleCollection.svg": "/static/media/coupleCollection.70e589c5d9767056134b0500948eaf4f.svg",
+    "static/media/Models.png": "/static/media/Models.12306927dc2563f89d9b.png",
+    "static/media/Indian_Man.jpg": "/static/media/Indian_Man.d84ce15685c34550fbea.jpg",
+    "static/media/girlCollection.svg": "/static/media/girlCollection.6395790317f79b610f0bafa436f1b4b4.svg",
+    "static/media/manCollection.svg": "/static/media/manCollection.83e09545035e27d026d8aeb1d70381f8.svg",
+    "static/media/sunglassCollection.svg": "/static/media/sunglassCollection.cd2cec9d37098d65c5f518c9cb02d3ed.svg",
+    "static/media/Indian_Woman.jpg": "/static/media/Indian_Woman.02be2e117cbd782d2592.jpg",
+    "static/media/shoesCollection.svg": "/static/media/shoesCollection.7aba62a169321199a12e882c4d995f27.svg",
+    "index.html": "/index.html",
+    "static/media/UnderLine.svg": "/static/media/UnderLine.defacf18e58a6e90478b.svg",
+    "static/media/logo.svg": "/static/media/logo.58b1d37f36ae145eb900fee4a4db696f.svg",
+    "static/media/imageFrame.svg": "/static/media/imageFrame.378898859d4e3a200b3b3ab91aaf9801.svg",
+    "main.59f201a2.css.map": "/static/css/main.59f201a2.css.map",
+    "main.ed5e8a72.js.map": "/static/js/main.ed5e8a72.js.map",
+    "787.482688bf.chunk.js.map": "/static/js/787.482688bf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.59f201a2.css",
+    "static/js/main.ed5e8a72.js"
+  ]
+}
