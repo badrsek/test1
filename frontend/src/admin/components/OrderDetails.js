@@ -131,7 +131,7 @@ function OrderDetails() {
                 <h2>Customer</h2>
                 <span>{orderDetail.billingName}</span>
                 <span>{orderDetail.userEmail}</span>
-                <span>+91 {orderDetail.userContact}</span>
+                <span>+216 {orderDetail.userContact}</span>
                 <Link
                   className="link"
                   to={"/dashboard/users/" + orderDetail.userId}
@@ -144,10 +144,10 @@ function OrderDetails() {
               <FaMoneyBillWave className="icon" />
               <div className="side">
                 <h2>Total pay</h2>
-                <span>Subtotal: ₹ {orderDetail.orderTotalPrice}.0</span>
-                <span>Shipping cost : ₹ 13.0</span>
+                <span>Subtotal: {orderDetail.orderTotalPrice}.0 DT</span>
+                <span>Shipping cost : 13.0 DT</span>
                 <span>
-                  Grand total: <b> ₹ {orderDetail.orderTotalPrice}.0</b>
+                  Grand total: <b> {orderDetail.orderTotalPrice}.0 DT</b>
                 </span>
               </div>
             </div>
@@ -186,10 +186,10 @@ function OrderDetails() {
                       </div>
                     </td>
                     <td>{item.id}</td>
-                    <td>₹ {item.price}.0</td>
+                    <td>{item.price}.0 DT</td>
                     <td>{item.total}</td>
                     <td>{item.size}</td>
-                    <td>₹ {item.price * item.total}.0</td>
+                    <td>{item.price * item.total}.0 DT</td>
                     <td>
                       <Link to={"/product/" + item.id}>View</Link>
                     </td>

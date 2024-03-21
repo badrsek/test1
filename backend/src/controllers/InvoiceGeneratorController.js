@@ -11,7 +11,7 @@ export const GenerateInvoicePdf = (Data) => {
   const razorpay_order_id = Data.orderData[0].razorpay_order_id;
   const OrderDate = Data.orderData[0].OrderDate;
   const subTotal = Data.orderData[0].amount;
-  const Shipping = 60;
+  const Shipping = 7;
   const Products = Data.orderData[1];
   const FileName = razorpay_order_id;
   var productTotalPosition = 370;
@@ -77,7 +77,7 @@ export const GenerateInvoicePdf = (Data) => {
     );
 
     doc.fillColor("#242327").font("Poppins_Medium").fontSize(12).text(
-      "TeeHaven shop",
+      "GdanaTeams shop",
       {
         align: "right",
       },
@@ -85,7 +85,7 @@ export const GenerateInvoicePdf = (Data) => {
     );
 
     doc.fillColor("#7a7a7a").font("Poppins_Medium").fontSize(12).text(
-      "teehaven@shop.com",
+      "sekrafibadr@icloud.com",
       {
         align: "right",
       },
@@ -141,14 +141,14 @@ export const GenerateInvoicePdf = (Data) => {
         .fill("#7a7a7a")
         .font("Poppins_Medium")
         .fontSize(10)
-        .text(`₹ ${item.price}`, 400, 370 + index * 30, 100, 100);
+        .text(`${item.price} DT`, 400, 370 + index * 30, 100, 100);
 
       doc
         .fill("#7a7a7a")
         .font("Poppins_Medium")
         .fontSize(10)
         .text(
-          `₹ ${item.price * item.total}`,
+          `${item.price * item.total} DT`,
           {
             align: "right",
           },
@@ -167,7 +167,7 @@ export const GenerateInvoicePdf = (Data) => {
       .text("SUBTOTAL :", 400, productTotalPosition, 100, 100);
 
     doc.fill("#7a7a7a").font("Poppins_Medium").fontSize(10).text(
-      `₹ ${subTotal}`,
+      `${subTotal} DT`,
       {
         align: "right",
       },
@@ -203,7 +203,7 @@ export const GenerateInvoicePdf = (Data) => {
       .text("SHIPPING :", 400, (productTotalPosition += 30), 100, 100);
 
     doc.fill("#7a7a7a").font("Poppins_Medium").fontSize(10).text(
-      `₹ ${Shipping}`,
+      `${Shipping} DT`,
       {
         align: "right",
       },
@@ -225,7 +225,7 @@ export const GenerateInvoicePdf = (Data) => {
       .font("Poppins_Medium")
       .fontSize(15)
       .text(
-        `₹ ${subTotal + Shipping}`,
+        `${subTotal + Shipping} DT`,
         {
           align: "right",
         },
@@ -246,19 +246,19 @@ export const GenerateInvoicePdf = (Data) => {
       .fillColor("#00dd6e")
       .font("Poppins_Medium")
       .fontSize(10)
-      .text("@ teeHaven Shop inc 2023", 90, 720);
+      .text("@ GdanaTeams Shop inc 2023", 90, 720);
 
     doc
       .fillColor("#00dd6e")
       .font("Poppins_Medium")
       .fontSize(10)
-      .text("www.TeeHaven.com", 330, 720);
+      .text("www.GdanaTeam.com", 330, 720);
 
     doc
       .fillColor("#00dd6e")
       .font("Poppins_Medium")
       .fontSize(10)
-      .text("9022126326", 457, 720);
+      .text("216 27 648 386", 457, 720);
   };
 
   InvoiceInit();

@@ -56,7 +56,7 @@ function UserDetails() {
           </div>
           <div className="textField">
             <span>Contact</span>
-            <b>+91 {userDetails.PhoneNum}</b>
+            <b>+216 {userDetails.PhoneNum}</b>
           </div>
           <div className="textField">
             <span>Gmail</span>
@@ -88,7 +88,7 @@ function UserDetails() {
                         ? ` ${item.orderedProducts.length} products are ordered .`
                         : ` ${item.orderedProducts.length}  product are ordered .`}
                     </span>
-                    <b>total : ₹ {item.orderTotalPrice}</b>
+                    <b>total : {item.orderTotalPrice} DT</b>
                     {item.deliveredOrNot != false ? (
                       <legend className="done">order is complete</legend>
                     ) : (

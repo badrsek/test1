@@ -127,7 +127,7 @@ function Orders() {
                       <td>{item.razorpayOrderId.slice(0, 14)}....</td>
                       <td>{item.billingName}</td>
                       <td>{item.orderDate}</td>
-                      <td>₹ {item.orderTotalPrice}.0</td>
+                      <td> {item.orderTotalPrice}.0 DT</td>
                       <td>
                         {item.deliveredOrNot ? (
                           <div className="statusPaid">Confirm</div>

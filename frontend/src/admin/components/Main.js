@@ -40,7 +40,7 @@ function Main() {
               <span>
                 {" "}
                 {DashboardMainData.Revenue ? (
-                  "₹ " + DashboardMainData.Revenue
+                   DashboardMainData.Revenue + "DT" 
                 ) : (
                   <BeatLoader size={7} color="#00dd6e" />
                 )}

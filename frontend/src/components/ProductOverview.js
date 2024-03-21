@@ -229,7 +229,7 @@ function ProductOverview() {
               {ProductData.orignalprice === ProductData.regularprice ? (
                 ""
               ) : (
-                <legend>₹{ProductData.orignalprice} </legend>
+                <legend>{ProductData.orignalprice} DT</legend>
               )}
 
               {ProductData.offerdiscount === "0" ? (
